@@ -1,0 +1,62 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #FFFC00;
+}
+
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+
+#nav {
+  justify-content: center;
+  padding: 30px;
+}
+
+#nav a {
+  font-weight: bold;
+  color: #0088CC;
+}
+
+#nav a.router-link-exact-active {
+  color: #000000;
+}
+
+.bg-black {
+  padding: 1em;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #0000008f;
+  box-shadow: 2px 3px 3px black;
+}
+
+#emailHelp {
+  color: white!important;
+}
+
+.whiteFont {
+  color: white!important;
+  text-shadow: 1px 1px 1px black;
+}
+
+pre {
+  border: 1px solid black;
+  text-align: left;
+  color: white;
+  background-color: #0000008f
+}
+
+.no-margin {
+  margin: 0!important;
+}
+
+.margin-4 {
+  margin-top: 4px;
+}
